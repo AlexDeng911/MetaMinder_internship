@@ -18,7 +18,7 @@ ReactDOM.render(
 reportWebVitals();
 if (module.hot && process.env.NODE_ENV === "development") {
   module.hot.accept("./App", () => {
-    const NextApp = require("./LoadableApp").default;
+    // const NextApp = require("./LoadableApp").default;
     ReactDOM.render(
       <React.StrictMode>
         <LoadableApp />

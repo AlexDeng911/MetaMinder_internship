@@ -7,7 +7,8 @@ const modeConfiguration = env => require(`./build-utils/webpack.${env}`)(env);
 module.exports = ({ mode } = { mode: "production" }) => {
     console.log(`mode is: ${mode}`);
 
-    return merge({
+    return merge(
+        {
         mode,
         entry: "./src/index.js",
         devServer: {
@@ -25,13 +26,21 @@ module.exports = ({ mode } = { mode: "production" }) => {
                     test: /\.(js|jsx)$/,
                     exclude: /node_modules/,
                     loader: "babel-loader"
-                }
+                },
+                {
+                    test: /\.(png|svg|jpg|jpeg|gif|ico)$/,
+                    exclude: /node_modules/,
+                    use: ["image-webpack-loader", "file-loader", "svg-inline-loader"]
+                },
             ]
         },
 
         plugins: [
             new HtmlWebpackPlugin({
-                template: "./public/index.html"
+                template: "./public/index.html",
+                favicon: "./public/favicon.ico",
+                filename: "index.html",
+                manifest: "./public/manifest.json"
             }),
             new webpack.HotModuleReplacementPlugin()
         ],

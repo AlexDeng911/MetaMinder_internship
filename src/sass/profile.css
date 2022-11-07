@@ -1,0 +1,209 @@
+.profile-frame {
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+  max-height: 864px;
+  margin-left: 140px;
+  background: #f6f7f8;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+
+.profile-title {
+  width: auto;
+  height: 28px;
+  padding-right: 20px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  -webkit-font-feature-settings: "tnum" on, "lnum" on;
+          font-feature-settings: "tnum" on, "lnum" on;
+  color: #384868;
+}
+
+.profile {
+  width: 100%;
+  max-width: 600px;
+  height: 100vh;
+  max-height: 782px;
+  margin-left: 40px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.general-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 32px;
+  padding-left: 40px;
+  padding-top: 32px;
+}
+
+.avatar-frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 28px;
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  max-height: 338px;
+}
+
+.avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 100%;
+  max-width: 390px;
+  height: 100vh;
+  max-height: 156px;
+}
+
+.avatar-img {
+  width: 100%;
+  max-width: 120px;
+  height: 100vh;
+  max-height: 120px;
+}
+
+.profile-img {
+  border-radius: 50%;
+}
+
+.edit-img {
+  width: 120px;
+  height: 24px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #384868;
+}
+
+.profile-name {
+  width: auto;
+  height: 33px;
+  padding-left: 38px;
+  padding-top: 42px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #384868;
+}
+
+.registration-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  max-height: 154px;
+}
+
+.input-field-title {
+  width: 152px;
+  height: 21px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #7d8fb3;
+}
+
+.input-field {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 400px;
+  height: 40px;
+  border: 1px solid #c9d6f0;
+  border-radius: 4px;
+}
+
+.contact-title {
+  width: 100%;
+  max-width: 174px;
+  height: 100vh;
+  max-height: 25px;
+  top: 475px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #384868;
+}
+
+.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  max-height: 154px;
+  top: 703px;
+}
+/*# sourceMappingURL=profile.css.map */

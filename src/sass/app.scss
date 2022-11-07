@@ -1,11 +1,116 @@
-body{
-  margin: 0
+*, ::before, ::after {
+    box-sizing: border-box;
 }
-.App{
+
+body {
+    height: 100vh;
+    font-family: "Noto Sans", sans-serif;
+    font-feature-settings: "tnum", "lnum";
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(56, 72, 104);
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+#root {
+box-sizing: border-box;
+}
+
+.app {
+    flex-wrap: nowrap;
+    max-width: 100%;
+    padding-left: 98px;
+}
+
+.page{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px 40px 125px;
+    background: #f6f7f8;
+}
+
+.page-frame{
+    width: 100%;
+}
+
+.frame{
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.3;
+    color: rgb(56, 72, 104);
+    margin-bottom: 50px;
+    margin-left: 190px;
+}
+
+.profile-title-frame{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: rgba(gray, 0.2);
-  height: 100vh
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 32px;
+  margin-left: 190px;
+  margin-top: 50px;
+  border: none;
+}
+
+.settings-button-active {
+  display: flex;
+  align-items: flex-end;
+  overflow: visible;
+  width: auto;
+  padding-right: 20px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  font-feature-settings: "tnum" on, "lnum" on;
+  color: #384868;
+  border: none;
+  border-color: #f6f7f8;
+  border-bottom: 2px solid rgb(56, 72, 104);
+  text-decoration: none;
+  background-color: #f6f7f8;
+}
+
+.settings-button {
+  display: flex;
+  align-items: flex-end;
+  width: auto;
+  padding-right: 20px;
+  height: 28px;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  font-feature-settings: "tnum" on, "lnum" on;
+  border: none;
+  border-color: #f6f7f8;
+  color: #7d8fb3;
+  background-color: #f6f7f8;
+  border-bottom: 2px solid rgb(201, 214, 240);
+  border-right: #f6f7f8;
+  text-decoration: none;
+}
+
+.save-button-account {
+  position: absolute;
+  top: 605px;
+  left: 360px;
+}
+
+.save-button-password {
+  position: absolute;
+  top: 630px;
+  left: 353px;
+}
+
+.profile-save-button{
+  position: absolute;
+  top: 919px;
+  left: 360px;
 }
