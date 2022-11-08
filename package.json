@@ -66,7 +66,7 @@
   },
   "description": "MetaMinder-Front project of DevEducation",
   "main": "index.js",
-  "repository": "https://github.com/DevEducationExpert/MetaMinder-Front.git",
-  "author": "galahad",
+  "repository": "https://github.com/AlexDeng911/MetaMinder_internship.git",
+  "author": "AlexDeng",
   "license": "MIT"
 }
